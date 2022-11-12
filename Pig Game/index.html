@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pig Game</title>
+</head>
+<body>
+    <div class="all">
+        <div class="player-1 active">
+            <div class="box-player-one">
+                <div class="main-score-box-player-one">
+                    <p> total score</p>
+                    <p class="pl">player 1</p>
+                    <p class="score-pl1" id="score-pl1">0</p>
+                </div><br><br><br><br><br><br>
+                <div class="current-score-box-player-one">
+                    <p class="cu-score">current score</p>
+                    <p class="cu-score-point1">0</p>
+                </div>
+            </div>
+            <div class="btn">
+                <div class="top-btn">
+                    <button class="start-btn btn">Start Game</button><br><br><br><br><br><br><br><br><br>
+                    <button class="toss btn">Toss a dice</button>    
+                    <button class="hold-btn btn">Hold</button><br><br><br>
+                </div>
+                <img src="img/dice-1.jpg" alt="dice" width="80px" class="dice-img hidden" onclick="alertdice()">
+                <div class="down-btn">
+                </div>   
+            </div>
+        </div>
+        <div class="player-2 ">
+            <div class="box-player-two">
+                <div class="main-score-box-player-two">
+                    <p>total score</p>
+                    <p class="pl">player 2</p>
+                    <p class="score-pl2" id="score-pl2">0</p>
+                </div><br><br><br><br><br><br>
+                <div class="current-score-box-player-two">
+                    <p class="cu-score">current score</p>
+                    <p class="cu-score-point2">0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="myscript.js"></script>    
+</body>
+</html>
